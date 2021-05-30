@@ -1,0 +1,40 @@
+{
+	"name": "SourceDataset_zde",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "blob12345",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "emptable.txt",
+				"container": "dhanadata"
+			},
+			"columnDelimiter": "|",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "empno",
+				"type": "String"
+			},
+			{
+				"name": "empname",
+				"type": "String"
+			},
+			{
+				"name": "empsal",
+				"type": "String"
+			},
+			{
+				"name": "emplocation",
+				"type": "String"
+			}
+		]
+	}
+}
