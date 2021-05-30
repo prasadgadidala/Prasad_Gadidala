@@ -10,6 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
+				"fileName": "emptable.txt",
 				"container": "dhanadata"
 			},
 			"columnDelimiter": ",",
