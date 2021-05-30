@@ -1,0 +1,9 @@
+{
+	"name": "dhanaadf",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3a76cf6b-bcc4-4c84-835a-ff41b6d3d80f",
+		"tenantId": "15db9386-8554-4925-b8ae-261006211453"
+	}
+}
