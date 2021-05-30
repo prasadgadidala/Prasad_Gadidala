@@ -1,0 +1,41 @@
+{
+	"name": "DestinationDataset_zde",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "empno",
+				"type": "int",
+				"precision": 10,
+				"scale": 0
+			},
+			{
+				"name": "empname",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "empsal",
+				"type": "int",
+				"precision": 10,
+				"scale": 0
+			},
+			{
+				"name": "emplocation",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "emp_target"
+		}
+	}
+}
